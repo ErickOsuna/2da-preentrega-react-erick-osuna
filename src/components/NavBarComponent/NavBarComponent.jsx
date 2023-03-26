@@ -17,10 +17,10 @@ export const NavBarComponent = () => {
       <Link to='/category/fuentes' className='linkNavBar'>Fuentes de Poder</Link>
       <Link to='/category/gabinetes' className='linkNavBar'>Gabinetes</Link>
       <Link to='/category/monitores' className='linkNavBar'>Monitores</Link>
-      <Link to='/' className='cartWidgetNavBar'>
+      <Link to='/cart-widget' className='cartWidgetNavBar'>
         <div className='cartWidgetContainer'>
           <img src={carrito} className='cartIcon' />
-          <p className='counter'>5</p>
+          <p className='counter'>2</p>
         </div>
       </Link>
     </div>

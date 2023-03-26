@@ -6,20 +6,24 @@ import { Link } from 'react-router-dom'
 
 export const ItemCategoryContainer = () => {
 
-  const { id } = useParams();
+  const { categoryId } = useParams();
   const [items] = useState(products);
-  const resultado = items.filter(e => e.categoria.id === id);
+  const resultado = items.filter(e => e.categoria.id === categoryId);
 
   return (
-    <div>
+    <div className='gridCardContainer'>
       {
         resultado.map(e =>
-          <div>
-            <span>{e.titulo}</span>
-            <Link to={`/item/${e.id}`}>
-              Detalle Producto
-            </Link>
+          <div key={e.id} className='productCard'>
+          <span><img src={e.imagen} alt="" className='productImage' /></span>
+          <div className='productCardInfo'>
+            <span className='productInfoName'>{e.titulo}</span>
+            <span className='productInfoPrice'>{e.precio}</span>
+            <Link to={`/item/${e.id}`}  className='details'>Detalle Producto</Link>
           </div>
+
+          
+        </div>
         )
       }
     </div>

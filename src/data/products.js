@@ -2,7 +2,7 @@ export const products = [
     {
         "id": "notebook-01",
         "titulo": "Notebook Lenovo V15-IGL 15.6'' PENTIUM N5030 4GB 1TB HDD Freedos",
-        "imagen": "././img/notebook01.jpg",
+        "imagen": "../img/notebook01.jpg",
         "categoria": {
             "nombre": "Notebooks",
             "id": "notebooks"
@@ -13,7 +13,7 @@ export const products = [
     {
         "id": "notebook-02",
         "titulo": "Notebook Acer Travel Mate P2 14'' Core I5 10310U 8GB 256GB SSD NVMe Freedos",
-        "imagen": "././img/notebook02.jpg",
+        "imagen": "../img/notebook02.jpg",
         "categoria": {
             "nombre": "Notebooks",
             "id": "notebooks"
@@ -24,7 +24,7 @@ export const products = [
     {
         "id": "notebook-03",
         "titulo": "Notebook Lenovo E41-50 14'' Core I5 1035G1 8GB 512GB SSD NVMe W10 PRO",
-        "imagen": "././img/notebook03.jpg",
+        "imagen": "../img/notebook03.jpg",
         "categoria": {
             "nombre": "Notebooks",
             "id": "notebooks"
@@ -35,7 +35,7 @@ export const products = [
     {
         "id": "notebook-04",
         "titulo": "Notebook Asus X515EA 15.6'' FHD Core I7 1165G7 8GB 512GB SSD NVMe W11 Home",
-        "imagen": "././img/notebook04.jpg",
+        "imagen": "../img/notebook04.jpg",
         "categoria": {
             "nombre": "Notebooks",
             "id": "notebooks"
@@ -46,7 +46,7 @@ export const products = [
     {
         "id": "notebook-05",
         "titulo": "Notebook Gamer Acer NITRO 5 15.6'' Core i5 11400H 8GB 256GB SSD NVMe GTX 1650 W11 Home FHD GAME PASS ULTIMATE 1 MONTH",
-        "imagen": "././img/notebook05.jpg",
+        "imagen": "../img/notebook05.jpg",
         "categoria": {
             "nombre": "Notebooks",
             "id": "notebooks"
@@ -57,7 +57,7 @@ export const products = [
     {
         "id": "notebook-06",
         "titulo": "Notebook Gamer Asus TUF FA506 FHD 15.6'' Ryzen 5 4600H 16GB 512GB SSD NVMe GTX 1650 Freedos 144Hz",
-        "imagen": "././img/notebook06.jpg",
+        "imagen": "../img/notebook06.jpg",
         "categoria": {
             "nombre": "Notebooks",
             "id": "notebooks"
@@ -68,7 +68,7 @@ export const products = [
     {
         "id": "notebook-07",
         "titulo": "Notebook Lenovo Legion 5 15ACH6H 15.6'' Ryzen 5 5600H 16GB 512GB SSD NVMe RTX 3060 165Hz W11",
-        "imagen": "././img/notebook07.jpg",
+        "imagen": "../img/notebook07.jpg",
         "categoria": {
             "nombre": "Notebooks",
             "id": "notebooks"
@@ -79,7 +79,7 @@ export const products = [
     {
         "id": "notebook-08",
         "titulo": "Notebook Gamer Gigabyte Aero 15 XD OLED 4K HDR 15.6'' Core I7 11800H 16GB (2x8GB) 1TB SSD NVMe RTX 3070Q W11",
-        "imagen": "././img/notebook08.jpg",
+        "imagen": "../img/notebook08.jpg",
         "categoria": {
             "nombre": "Notebooks",
             "id": "notebooks"
@@ -90,7 +90,7 @@ export const products = [
     {
         "id": "notebook-09",
         "titulo": "Notebook Gamer Gigabyte Aero 16 XE5 UHD AMOLED HDR 16'' Core I7 12700H 16GB 4800Mhz 1TB SSD NVMe RTX 3070TI W11 120Hz",
-        "imagen": "././img/notebook09.jpg",
+        "imagen": "../img/notebook09.jpg",
         "categoria": {
             "nombre": "Notebooks",
             "id": "notebooks"
@@ -101,7 +101,7 @@ export const products = [
     {
         "id": "notebook-10",
         "titulo": "Notebook Gamer Dell Alienware 15.6'' Core i7 11800H 32GB 1TB SSD NVMe RTX 3080 W10H 360Hz",
-        "imagen": "././img/notebook10.jpg",
+        "imagen": "../img/notebook10.jpg",
         "categoria": {
             "nombre": "Notebooks",
             "id": "notebooks"
@@ -112,7 +112,7 @@ export const products = [
     {
         "id": "procesador-01",
         "titulo": "Procesador AMD Ryzen 3 4100 Sin cooler OEM",
-        "imagen": "././img/procesador01.jpg",
+        "imagen": "../img/procesador01.jpg",
         "categoria": {
             "nombre": "Procesadores",
             "id": "procesadores"
@@ -123,7 +123,7 @@ export const products = [
     {
         "id": "procesador-02",
         "titulo": "Procesador AMD RYZEN 3 3200G 4.0GHz Turbo + Radeon Vega 8 AM4 Wraith Stealth Cooler",
-        "imagen": "././img/procesador02.jpg",
+        "imagen": "../img/procesador02.jpg",
         "categoria": {
             "nombre": "Procesadores",
             "id": "procesadores"
@@ -134,7 +134,7 @@ export const products = [
     {
         "id": "procesador-03",
         "titulo": "Procesador AMD Ryzen 5 PRO 4650G 4.2GHz Turbo + Wraith Stealth Cooler OEM",
-        "imagen": "././img/procesador03.jpg",
+        "imagen": "../img/procesador03.jpg",
         "categoria": {
             "nombre": "Procesadores",
             "id": "procesadores"
@@ -145,7 +145,7 @@ export const products = [
     {
         "id": "procesador-04",
         "titulo": "Procesador AMD Ryzen 7 PRO 4750G + Wraith Stealth Cooler OEM",
-        "imagen": "././img/procesador04.jpg",
+        "imagen": "../img/procesador04.jpg",
         "categoria": {
             "nombre": "Procesadores",
             "id": "procesadores"
@@ -156,7 +156,7 @@ export const products = [
     {
         "id": "procesador-05",
         "titulo": "Procesador AMD Ryzen 5 7600 5.1GHz Turbo AM5 + Wraith Stealth Cooler",
-        "imagen": "././img/procesador05.jpg",
+        "imagen": "../img/procesador05.jpg",
         "categoria": {
             "nombre": "Procesadores",
             "id": "procesadores"
@@ -167,7 +167,7 @@ export const products = [
     {
         "id": "procesador-06",
         "titulo": "Procesador AMD Ryzen 7 7700 5.3GHz Turbo AM5",
-        "imagen": "././img/procesador06.jpg",
+        "imagen": "../img/procesador06.jpg",
         "categoria": {
             "nombre": "Procesadores",
             "id": "procesadores"
@@ -178,7 +178,7 @@ export const products = [
     {
         "id": "procesador-07",
         "titulo": "Procesador AMD Ryzen 9 5950X 4.9GHz Turbo AM4 - No incluye Cooler",
-        "imagen": "././img/procesador01.jpg",
+        "imagen": "../img/procesador01.jpg",
         "categoria": {
             "nombre": "Procesadores",
             "id": "procesadores"
@@ -189,7 +189,7 @@ export const products = [
     {
         "id": "procesador-08",
         "titulo": "Procesador Intel Celeron G4900 3.10GHz Socket 1151 OEM Coffe Lake",
-        "imagen": "././img/procesador08.jpg",
+        "imagen": "../img/procesador08.jpg",
         "categoria": {
             "nombre": "Procesadores",
             "id": "procesadores"
@@ -200,7 +200,7 @@ export const products = [
     {
         "id": "procesador-09",
         "titulo": "Procesador Intel Celeron G6900 3.4GHz Socket 1700 Alder Lake",
-        "imagen": "././img/procesador09.jpg",
+        "imagen": "../img/procesador09.jpg",
         "categoria": {
             "nombre": "Procesadores",
             "id": "procesadores"
@@ -211,7 +211,7 @@ export const products = [
     {
         "id": "procesador-10",
         "titulo": "Procesador Intel Pentium Gold G6400 4.0GHz Socket 1200 Comet Lake",
-        "imagen": "././img/procesador10.jpg",
+        "imagen": "../img/procesador10.jpg",
         "categoria": {
             "nombre": "Procesadores",
             "id": "procesadores"
@@ -222,7 +222,7 @@ export const products = [
     {
         "id": "procesador-11",
         "titulo": "Procesador Intel Pentium Gold G7400 3.7GHz Socket 1700 Alder Lake",
-        "imagen": "././img/procesador11.jpg",
+        "imagen": "../img/procesador11.jpg",
         "categoria": {
             "nombre": "Procesadores",
             "id": "procesadores"
@@ -233,7 +233,7 @@ export const products = [
     {
         "id": "procesador-12",
         "titulo": "Procesador Intel Core i3 12100 4.3GHz Socket 1700 Alder Lake",
-        "imagen": "././img/procesador12.jpg",
+        "imagen": "../img/procesador12.jpg",
         "categoria": {
             "nombre": "Procesadores",
             "id": "procesadores"
@@ -244,7 +244,7 @@ export const products = [
     {
         "id": "procesador-13",
         "titulo": "Procesador Intel Core i5 11400F 4.40GHz Turbo S1200 Rocket Lake",
-        "imagen": "././img/procesador13.jpg",
+        "imagen": "../img/procesador13.jpg",
         "categoria": {
             "nombre": "Procesadores",
             "id": "procesadores"
@@ -255,7 +255,7 @@ export const products = [
     {
         "id": "procesador-14",
         "titulo": "Procesador Intel Core i5 11600KF 4.9GHz Turbo Socket 1200 Rocket Lake",
-        "imagen": "././img/procesador14.jpg",
+        "imagen": "../img/procesador14.jpg",
         "categoria": {
             "nombre": "Procesadores",
             "id": "procesadores"
@@ -266,7 +266,7 @@ export const products = [
     {
         "id": "procesador-15",
         "titulo": "Procesador Intel Core i7 10700 4.8GHz Turbo Socket 1200 Comet Lake",
-        "imagen": "././img/procesador15.jpg",
+        "imagen": "../img/procesador15.jpg",
         "categoria": {
             "nombre": "Procesadores",
             "id": "procesadores"
@@ -277,7 +277,7 @@ export const products = [
     {
         "id": "procesador-16",
         "titulo": "Procesador Intel Core i7 10700KF 5.1GHz Turbo Socket 1200 Comet Lake",
-        "imagen": "././img/procesador16.jpg",
+        "imagen": "../img/procesador16.jpg",
         "categoria": {
             "nombre": "Procesadores",
             "id": "procesadores"
@@ -288,7 +288,7 @@ export const products = [
     {
         "id": "mother-01",
         "titulo": "Mother ASUS PRIME A320M-K AM4 5th Gen Ready",
-        "imagen": "././img/mother01.jpg",
+        "imagen": "../img/mother01.jpg",
         "categoria": {
             "nombre": "Mothers",
             "id": "mothers"
@@ -299,7 +299,7 @@ export const products = [
     {
         "id": "mother-02",
         "titulo": "Mother Asrock A520M-HDV AM4",
-        "imagen": "././img/mother02.jpg",
+        "imagen": "../img/mother02.jpg",
         "categoria": {
             "nombre": "Mothers",
             "id": "mothers"
@@ -310,7 +310,7 @@ export const products = [
     {
         "id": "mother-03",
         "titulo": "Mother Asrock B450M Pro4-F AM4 R2.0",
-        "imagen": "././img/mother03.jpg",
+        "imagen": "../img/mother03.jpg",
         "categoria": {
             "nombre": "Mothers",
             "id": "mothers"
@@ -321,7 +321,7 @@ export const products = [
     {
         "id": "mother-04",
         "titulo": "Mother Asrock B550M Phantom Gaming 4 AM4",
-        "imagen": "././img/mother04.jpg",
+        "imagen": "../img/mother04.jpg",
         "categoria": {
             "nombre": "Mothers",
             "id": "mothers"
