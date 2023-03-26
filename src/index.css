@@ -1,3 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  vertical-align: baseline;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root {
+  --clr-main: rgb(78, 78, 78);
+  --clr-white: rgb(255,255,255);
+  --clr-grey: rgb(173, 173, 173);
+  --clr-light-grey: rgba(173,173,173,0.2);
+  --clr-gradient: linear-gradient(to left, rgba(8, 241, 164, 0.5),rgba(4,213,183,0.5),rgba(0, 133, 173, 0.8));
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +29,107 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1, h2, h3, h4, h5, h6, p, a, input, textarea, ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* NAVBAR */
+
+
+.navBar{
+  -webkit-box-shadow: 0px 2px 5px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 5px -4px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 5px -4px rgba(0,0,0,0.75);
+  background-color: var(--clr-white);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.linkNavBar{
+  text-decoration: none;
+  color: rgb(78, 78, 78);
+  font-weight: 500;
+  padding: 0.7rem;
+  font-size: 1rem;
+}
+
+.logo {
+  width: 3rem;
+}
+
+.cartWidgetContainer{
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.cartIcon{
+  width: 1.6rem;
+}
+
+.counter{
+  color: rgb(78, 78, 78);
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 1.5rem 1rem 0 0.5rem;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+
+
+/* Main */
+.color {
+  background: var(--clr-gradient);
+}
+
+/* CardContainer */ 
+
+.gridCardContainer {
+  padding: 5rem;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 4rem;
+}
+
+
+
+/* FOOTER */
+
+.footer {
+  display: flex;
+  -webkit-box-shadow: 0px -3px 5px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px -3px 5px -4px rgba(0,0,0,0.75);
+  box-shadow: 0px -3px 5px -4px rgba(0,0,0,0.75);
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--clr-white);
+}
+
+.copy {
+  color: rgb(78, 78, 78);
+  font-weight: 500;
+  padding: 0.7rem;
+  font-size: 1rem;
+}
+
+.footer img {
+  width: 1.5rem;
+  margin: 0 0.5rem;
+}
+

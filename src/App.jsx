@@ -3,7 +3,7 @@ import { MainRoutes } from './routes';
 
 function App() {
   return (
-    <div>
+    <div className='color'>
       <MainRoutes/>
 
     </div>

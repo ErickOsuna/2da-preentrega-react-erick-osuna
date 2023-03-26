@@ -13,6 +13,7 @@ const [items] = useState(products);
     <div>
         {items.map(e =>
         <div key={e.id}>
+          <img src={e.imagen} alt="" />
           <span>{e.titulo}</span>
           <Link to={`/item/${e.id}`}>
             Detalle Producto

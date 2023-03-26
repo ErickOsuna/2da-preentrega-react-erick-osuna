@@ -3,7 +3,7 @@ import { CardProductosComponent } from '../CardProductosComponent/CardProductosC
 
 export const ItemListContainerComponent = () => {
   return (
-    <div>
+    <div className='gridCardContainer'>
         <CardProductosComponent/>
     </div>
   )
