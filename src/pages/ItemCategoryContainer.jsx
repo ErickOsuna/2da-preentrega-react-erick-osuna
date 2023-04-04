@@ -18,7 +18,7 @@ export const ItemCategoryContainer = () => {
           <span><img src={e.imagen} alt="" className='productImage' /></span>
           <div className='productCardInfo'>
             <span className='productInfoName'>{e.titulo}</span>
-            <span className='productInfoPrice'>{e.precio}</span>
+            <span className='productInfoPrice'>$ {e.precio}</span>
             <Link to={`/item/${e.id}`}  className='details'>Detalle Producto</Link>
           </div>
 

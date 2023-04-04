@@ -19,8 +19,6 @@ export const CardProductosComponent = () => {
             <span className='productInfoPrice'>$ {e.precio}</span>
             <Link to={`/item/${e.id}`}  className='details'>Detalle Producto</Link>
           </div>
-
-          
         </div>
       )}
     </div>

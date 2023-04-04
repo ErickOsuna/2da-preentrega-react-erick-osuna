@@ -9,7 +9,6 @@ export const MainRoutes = () => {
   return (
     <Router>
         <NavBarComponent />
-
         <Routes>
             <Route exact path='/' element={<ItemListContainerComponent/>}/>
             <Route exact path='/item/:id' element={<ItemDetailsContainer/>}/>
