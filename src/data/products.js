@@ -546,7 +546,7 @@ export const products = [
             "nombre": "Placas de Video",
             "id": "placas-video"
         },
-        "precio": 35200,
+        "precio": 352000,
         "url": "https://compragamer.com/producto/Placa_de_Video_GALAX_GeForce_RTX_3080_Ti_12GB_GDDR6X_SG_1_Click_OC_13477"
     },
     {
@@ -1151,7 +1151,7 @@ export const products = [
             "nombre": "Monitores",
             "id": "monitores"
         },
-        "precio": 3172500,
+        "precio": 317250,
         "url": "https://compragamer.com/producto/Monitor_Gamer_LG_32_IPS_QHD_32GP850_B_165Hz_13545"
     },
     {

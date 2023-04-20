@@ -1,25 +1,37 @@
 import React from 'react'
-import { products } from '../data/products'
-import { useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { Link } from 'react-router-dom'
+import { doc, getDoc, getFirestore } from "firebase/firestore";
 
 export const ItemDetailsContainer = () => {
 
   const { id } = useParams();
-  const [items] = useState(products);
-  const resultado = items.find(e => e.id === id);
+  const [itemData, setItemData] = React.useState({});
 
+  React.useEffect(()=>{
+
+    const db = getFirestore();
+    const docRef = doc(db, "products", id);
+    getDoc(docRef)
+    .then(product => {
+      if(!product.exists()){
+        console.log("No existe el producto");
+      }
+      setItemData({id: product.id, ...product.data()})
+    })
+    .catch (err => console.log(err))
+
+  }, [])
 
   return (
     <div className='flexCardContainer1'>
-      <div key={resultado.id} className='productCard flex'>
-        <span><img src={resultado.imagen} alt="" className='productImage' /></span>
+      <div key={itemData.id} className='productCard flex'>
+        <span><img src={itemData.imagen} alt="" className='productImage' /></span>
         <div className='productCardInfo'>
-          <span className='productInfoName'>{resultado.titulo}</span>
-          <span className='productInfoPrice'>{resultado.id}</span>
-          <span className='productInfoPrice'>Categoría: {resultado.categoria.nombre}</span>
-          <span className='productInfoName'>$ {resultado.precio}</span>
+          <span className='productInfoName'>{itemData.titulo}</span>
+          <span className='productInfoPrice'>{itemData.id}</span>
+          <span className='productInfoPrice'>Categoría: {itemData.categoryName}</span>
+          <span className='productInfoName'>$ {itemData.precio}</span>
           <Link to={`/`} className='details'>Volver atrás</Link>
         </div>
       </div>

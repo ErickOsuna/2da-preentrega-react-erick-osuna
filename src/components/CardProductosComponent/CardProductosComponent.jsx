@@ -1,12 +1,30 @@
 import React from 'react'
-import { products } from '../../data/products'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
+import { collection, getDocs, getFirestore } from "firebase/firestore";
 
 
 export const CardProductosComponent = () => {
 
-  const [items] = useState(products);
+  const [items, setItems] = useState([]);
+
+  useEffect(() => {
+
+    const db = getFirestore();
+    const itemsCollection = collection(db, "products");
+    getDocs(itemsCollection)
+      .then(products => {
+        if (products.length === 0) {
+          console.log("No products")
+        }
+        setItems(
+          products.docs.map(doc => ({ id: doc.id, ...doc.data() }))
+        );
+      }).catch(err => console.log(err)).then(() => {
+        console.log(items);
+      });
+  }, []);
+
 
 
   return (
@@ -17,7 +35,7 @@ export const CardProductosComponent = () => {
           <div className='productCardInfo'>
             <span className='productInfoName'>{e.titulo}</span>
             <span className='productInfoPrice'>$ {e.precio}</span>
-            <Link to={`/item/${e.id}`}  className='details'>Detalle Producto</Link>
+            <Link to={`/item/${e.id}`} className='details'>Detalle Producto</Link>
           </div>
         </div>
       )}
