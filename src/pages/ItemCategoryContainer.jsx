@@ -13,7 +13,15 @@ export const ItemCategoryContainer = () => {
     const db = getFirestore();
     const itemsCollectionFiltered = query(
       collection(db, "products"),
-      where("categoryId", "==", "mothers")
+      where("categoryId", "==", "notebooks"),
+      where("categoryId", "==", "procesadores"),
+      where("categoryId", "==", "mothers"),
+      where("categoryId", "==", "placas"),
+      where("categoryId", "==", "memorias"),
+      where("categoryId", "==", "almacenamiento"),
+      where("categoryId", "==", "fuentes"),
+      where("categoryId", "==", "gabinetes"),
+      where("categoryId", "==", "monitores")
     )
     getDocs(itemsCollectionFiltered)
       .then(products => {
